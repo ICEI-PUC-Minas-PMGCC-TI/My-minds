@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background-image: url(./img/wave.png);
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
+
+#btn-cadastrar {
+  background-color: rgb(194, 161, 211);
+  border: none;
+}
+
+#btn-cadastrar:hover {
+  background-color: rgb(178, 38, 233);
+  border: none;
+}
+
+#btn-login {
+  background-color: rgb(194, 161, 211);
+  border: none;
+}
+
+#btn-login:hover {
+  background-color: rgb(178, 38, 233);
+  border: none;
+}
+
+#btn_salvar {
+  background-color: rgb(194, 161, 211);
+  border: none;
+}
+
+#btn_salvar:hover {
+  background-color: rgb(178, 38, 233);
+  border: none;
+}
+
+#username {
+  border-radius: 20px;
+}
+
+#password {
+  border-radius: 20px;
+}
