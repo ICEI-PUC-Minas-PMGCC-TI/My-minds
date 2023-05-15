@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <h1>My Minds</h1>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Relatório</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Consulta</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Teste de Ansiedade</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Relatório</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Consulta</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Teste de Ansiedade</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+    </div>
+</header>
+
+<div class="boxx">
+ <section>
+    <h2>My Minds</h2>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome" required>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Digite seu email" required>
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="accessKey" value="45b9f355-3ddf-40a4-aa90-fd40bc64fc41">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/pagina/agradecimento.html">
+    </form>
+  </div>
+    
+ </section>
+
+ <!-- Footer -->
+
+</body>
+
+</html>
