@@ -1,0 +1,81 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    height: 90px;
+}
+
+#lista li{
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: rgb(181, 136, 182);
+  }
+
+.cards {
+        height: auto;
+        margin: 20px;
+}
+
+#teste_ansiedade{
+    background-color: rgb(181, 136, 182);
+    padding: 40px;
+}
+
+#title_h3{
+  font-size: 90px;
+  color: aliceblue;
+}
+
+#title_p{
+  width: 50%;
+  color: aliceblue;
+}
+
+#title_button{
+  width: 50%;
+  border: none;
+  border-radius: 20px;
+  color: rgb(243, 236, 241);
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(215, 173, 214);
+}
+
+#title_button:hover{
+
+  background-color: rgb(182, 121, 181);
+}
+
+#btn_logout{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(182, 121, 181);
+  border: none;
+  color: white;
+}
+
+#btn_logout:hover {
+  background-color: rgb(178, 38, 233);
+  border: none;
+  transition: 1s;
+}
+
+@media (max-width: 690px){
+  #myimage {
+    display: none;
+  }
+
+  #text_ansiedade{
+    display: flex;
+    justify-content: center;
+  }
+
+
+}
